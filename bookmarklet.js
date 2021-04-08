@@ -1,8 +1,10 @@
-const pageState = document.querySelctor(`[data-a-state='{"key":"page-state"}']`);
-const trackingId = "Not Defined"
+(function(){
+const pageState = document.querySelector(`[data-a-state='{"key":"page-state"}']`);
+let trackingId = "Not Defined";
 try {
-    JSON.parse(pageState.innerText).trackingId
+    trackingId = JSON.parse(pageState.innerText).trackingId;
 } catch (error) {
-    console.log("Unable to find trackingID", error)
+    console.log("PURSE | Unable to find trackingID: ", error);
 }
-alert("Tracking ID: " + trackingId)
+alert("Tracking ID: " + trackingId);
+})();
