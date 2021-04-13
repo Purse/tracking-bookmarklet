@@ -1,6 +1,3 @@
-# Amazon Tracking Number Bookmarklet
-A simple bookmarklet for grabbing tracking numbers from amazon tracking pages.
-
 This was developed due to changes with how Amazon presents tracking information.  See https://support.purse.io/en/article/how-to-get-the-tracking-number-of-an-order-10oyrvo for more info.
 
 ## How to
