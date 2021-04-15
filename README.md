@@ -5,5 +5,5 @@ This was developed due to changes with how Amazon presents tracking information.
 2. When viewing an amazon tracking page, click the bookmarklet and it will grab the tracking number and automatically assign it to the corresponding purse order.
 
 
-## Video tutorial:
-[![Amazon Tracking Bookmarklet](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Amazon Tracking Bookmarklet")
+<!-- ## Video tutorial:
+[![Amazon Tracking Bookmarklet](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Amazon Tracking Bookmarklet") -->
