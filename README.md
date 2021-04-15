@@ -11,7 +11,7 @@ Visit [our support docs](https://support.purse.io/en/article/how-to-get-the-trac
 [![Amazon Tracking Bookmarklet](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Amazon Tracking Bookmarklet") -->
 
 ## Source Code
-You can review the Source Code for this bookmarklet here: https://github.com/Purse/tracking-bookmarklet/blob/main/bookmarklet.js
+You can review the Source Code for this bookmarklet here: [https://github.com/Purse/tracking-bookmarklet/blob/main/bookmarklet.js](https://github.com/Purse/tracking-bookmarklet/blob/main/bookmarklet.js)
 
 ## Script Blockers
 If you run a script blocker (like [umatrix](https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf)) then you'll need to allow this script (from purse.github.io) to run on amazon.com in order for the bookmarklet to work.  otherwise, you will need to hack up your own bookmarklet from the source code.  but keep in mind if you go this route, then you'll need to manually apply any updates if we (Purse.io) make changes or improvements to the bookmarklet.
