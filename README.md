@@ -7,7 +7,7 @@ Visit [our support docs](https://support.purse.io/en/article/adding-tracking-num
 2. When viewing an amazon tracking page, click the bookmarklet and it will grab the tracking number and automatically assign it to the corresponding purse order.
 
 ## Video instructions
-![BookmarkletHow2](https://user-images.githubusercontent.com/479079/115082163-4b568880-9eba-11eb-8c7b-39e4bc3a30c8.gif)
+![BookmarkletHow2](https://purse.github.io/tracking-bookmarklet/BookmarkletHow2.gif)
 
 <!-- [![Amazon Tracking Bookmarklet](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Amazon Tracking Bookmarklet") -->
 
