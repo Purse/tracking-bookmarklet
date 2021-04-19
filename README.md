@@ -13,8 +13,9 @@ Visit [our support docs](https://support.purse.io/en/article/adding-tracking-num
 
 ## Manual Installation Method
 If you're unable to drag the bookmarklet link to install(For instance, if you're installing on a mobile browser), then you can manually create a bookmark with the following code.  This is a slightly more advanced way to install a bookmarklet, but with the help of the tutorials below you should be able to get it working easy enough:
+
 <textarea readonly cols="40" rows="7">
-javascript:(function(){var jsCode=document.createElement('script');jsCode.setAttribute('src','https://purse.github.io/tracking-bookmarklet/bookmarklet.js');document.body.appendChild(jsCode)}());
+javascript:(function()%7Bvar jsCode%3Ddocument.createElement(%27script%27)%3BjsCode.setAttribute(%27src%27,%27https://purse.github.io/tracking-bookmarklet/bookmarklet.js%27)%3Bdocument.body.appendChild(jsCode)%3B%7D())%3B
 </textarea>
 
 Some example tutorials can be found here:
