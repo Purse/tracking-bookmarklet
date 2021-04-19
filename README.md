@@ -18,8 +18,8 @@ javascript:(function(){var jsCode=document.createElement('script');jsCode.setAtt
 </textarea>
 
 Some example tutorials can be found here:
-[https://www.cultofmac.com/500532/how-to-add-bookmarklet-mobile-iphone-safari/](https://www.cultofmac.com/500532/how-to-add-bookmarklet-mobile-iphone-safari/)
-[https://www.howtogeek.com/189358/beginner-geek-how-to-use-bookmarklets-on-any-device/](https://www.howtogeek.com/189358/beginner-geek-how-to-use-bookmarklets-on-any-device/)
+- [https://www.cultofmac.com/500532/how-to-add-bookmarklet-mobile-iphone-safari/](https://www.cultofmac.com/500532/how-to-add-bookmarklet-mobile-iphone-safari/)
+- [https://www.howtogeek.com/189358/beginner-geek-how-to-use-bookmarklets-on-any-device/](https://www.howtogeek.com/189358/beginner-geek-how-to-use-bookmarklets-on-any-device/)
 
 ## Source Code
 You can review the Source Code for this bookmarklet here: [https://github.com/Purse/tracking-bookmarklet/blob/main/bookmarklet.js](https://github.com/Purse/tracking-bookmarklet/blob/main/bookmarklet.js)
