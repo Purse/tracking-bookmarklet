@@ -11,6 +11,16 @@ Visit [our support docs](https://support.purse.io/en/article/adding-tracking-num
 
 <!-- [![Amazon Tracking Bookmarklet](http://i.imgur.com/Ot5DWAW.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Amazon Tracking Bookmarklet") -->
 
+## Manual Installation Method
+If you are unable to drag the bookmarklet link (For instance, if you're installing on a mobile browser), then you can manually create a bookmark with the following code.  This is a slightly more advanced way to install a bookmarklet, but with the help of the tutorials below you should be able to get it working easy enough:
+<textarea readonly>
+javascript:(function () {var jsCode=document.createElement('script');jsCode.setAttribute('src','https://purse.github.io/tracking-bookmarklet/bookmarklet.js');document.body.appendChild(jsCode);}());
+</textarea>
+
+Some example tutorials can be found here:
+[https://www.cultofmac.com/500532/how-to-add-bookmarklet-mobile-iphone-safari/](https://www.cultofmac.com/500532/how-to-add-bookmarklet-mobile-iphone-safari/)
+[https://www.howtogeek.com/189358/beginner-geek-how-to-use-bookmarklets-on-any-device/](https://www.howtogeek.com/189358/beginner-geek-how-to-use-bookmarklets-on-any-device/)
+
 ## Source Code
 You can review the Source Code for this bookmarklet here: [https://github.com/Purse/tracking-bookmarklet/blob/main/bookmarklet.js](https://github.com/Purse/tracking-bookmarklet/blob/main/bookmarklet.js)
 
