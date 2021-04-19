@@ -3,7 +3,7 @@ This was developed due to changes with how Amazon presents tracking information.
 Visit [our support docs](https://support.purse.io/en/article/adding-tracking-numbersorder-ids-9u2o4j/) for more info.
 
 ## How to
-1. Simply drag this link to your bookmarks bar: <a href="javascript:(function () {var jsCode=document.createElement('script');jsCode.setAttribute('src','https://purse.github.io/tracking-bookmarklet/bookmarklet.js');document.body.appendChild(jsCode);}());">Get Tracking Number</a>
+1. Simply drag this link to your bookmarks bar: <a href="javascript:(function(){var jsCode=document.createElement('script');jsCode.setAttribute('src','https://purse.github.io/tracking-bookmarklet/bookmarklet.js');document.body.appendChild(jsCode);}());">Get Tracking Number</a>
 2. When viewing an amazon tracking page, click the bookmarklet and it will grab the tracking number and automatically assign it to the corresponding purse order.
 
 ## Video instructions
@@ -13,8 +13,8 @@ Visit [our support docs](https://support.purse.io/en/article/adding-tracking-num
 
 ## Manual Installation Method
 If you are unable to drag the bookmarklet link (For instance, if you're installing on a mobile browser), then you can manually create a bookmark with the following code.  This is a slightly more advanced way to install a bookmarklet, but with the help of the tutorials below you should be able to get it working easy enough:
-<textarea readonly>
-javascript:(function () {var jsCode=document.createElement('script');jsCode.setAttribute('src','https://purse.github.io/tracking-bookmarklet/bookmarklet.js');document.body.appendChild(jsCode);}());
+<textarea readonly cols="40" rows="7">
+javascript:(function(){var jsCode=document.createElement('script');jsCode.setAttribute('src','https://purse.github.io/tracking-bookmarklet/bookmarklet.js');document.body.appendChild(jsCode)}());
 </textarea>
 
 Some example tutorials can be found here:
