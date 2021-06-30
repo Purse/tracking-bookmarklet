@@ -7,8 +7,10 @@
       throw new Error('Cannot retrieve amazonOrderId from URL');
     }
     if (trackingId) {
-      alert("Click 'OK' to send Tracking Number to purse: " + trackingId);
-      location.href = 'https://purse.io/add-tracking/' + amazonOrderId + '/' + trackingId;
+      const res = confirm("Click 'OK' to send Tracking Number to purse: " + trackingId);
+      if (res) {
+        location.href = 'https://purse.io/add-tracking/' + amazonOrderId + '/' + trackingId;
+      }
     } else {
       alert("It looks like the package hasn't been shipped yet.\nTry again later once it's been shipped");
     }
