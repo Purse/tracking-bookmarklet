@@ -1,20 +1,30 @@
 (function() {
   try {
-    const pageState = document.querySelector('[data-a-state=\'{"key":"page-state"}\']');
-    const trackingId = JSON.parse(pageState.innerText).trackingId.trim();
+    const pageState = JSON.parse(document.querySelector('[data-a-state=\'{"key":"page-state"}\']').innerText);
+    const trackingId = pageState.trackingId.trim();
     const amazonOrderId = location.href.match(/orderId=(\d{3}-\d{7}-\d{7})/)[1];
-    const statusEl = document.querySelector('#primaryStatus');
-    let statusText = null;
-    if (!amazonOrderId) {
-      throw new Error('Cannot retrieve amazonOrderId from URL');
+    let statusText = '';
+
+    try {
+      statusText = pageState.promise.promiseMessage.trim();
+    } catch (err) {
+      ;
     }
+
+    if (!amazonOrderId) {
+      alert("Cannot retrieve amazon order ID.  are you sure you're on an Amazon tracking page");
+    }
+
     if (trackingId) {
-      if (statusEl) {
-        statusText = statusEl.innerText
+      let href = `https://purse.io/add-tracking/${amazonOrderId}/${trackingId}?ref=Bookmarklet`;
+
+      if (statusText) {
+        href += `&status=${encodeURIComponent(statusText)}`;
       }
-      const res = confirm("Click 'OK' to send Tracking Number to purse: " + trackingId);
+
+      const res = confirm("Click 'OK' to send Tracking Number to purse: " + trackingId + '\n' + href);
       if (res) {
-        location.href = 'https://purse.io/add-tracking/' + amazonOrderId + '/' + trackingId + '?status=' + statusText;
+        location.href = href;
       }
     } else {
       alert("It looks like the package hasn't been shipped yet.\nTry again later once it's been shipped");
