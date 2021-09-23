@@ -22,7 +22,7 @@
         href += `&status=${encodeURIComponent(statusText)}`;
       }
 
-      const res = confirm("Click 'OK' to send Tracking Number to purse: " + trackingId + '\n' + href);
+      const res = confirm("Click 'OK' to send Tracking Number to purse: " + trackingId);
       if (res) {
         location.href = href;
       }
